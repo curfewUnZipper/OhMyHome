@@ -128,12 +128,13 @@ export default function Lights({ schedules, setSchedules, lightStatus }) {
 
   return (
     <div className="bg-brand-bg min-h-screen w-full flex flex-col items-center pt-8 md:pt-14 px-4">
-      {/* Header */}
-      <div className="w-full flex items-center justify-between mb-6 md:mb-10">
+      {/* Header - Centered */}
+      <div className="w-full flex items-center justify-center mb-6 md:mb-10">
         <span className="text-xl md:text-2xl font-bold text-brand-primary tracking-wide">
           Light Schedule
         </span>
       </div>
+
 
       {/* ---- ML Schedule Table ---- */}
       <div className="w-full max-w-4xl mb-6 md:mb-8">
